@@ -1,0 +1,173 @@
+@import url(/WebCademy-reset.css);
+@import url(/buttons.css);
+
+html {
+    background-color: black;
+}
+
+body {
+    height: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+background-color: white;
+box-sizing: border-box;
+}
+    .header {
+        width: 100%;
+        max-width: 1360px;
+        margin: 0 auto;
+        height: 100px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    }
+
+    .header .container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+
+    .container {
+        align-items:center;
+        justify-content: center;
+
+    }
+
+    h1 h2{
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .list-link__underline  {
+        display: inline-block;
+  position: relative;
+  color: #000000;
+  display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-link__underline::after {
+        content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+    }
+
+    .list-link__underline:hover::after {
+        transform: scaleX(1);
+  transform-origin: bottom left;
+    }
+
+
+
+   
+
+    a {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .navbar-menu a {
+        text-decoration: none;
+        color: black;
+        opacity: 0.7;
+        transition: all 0.3s ease-in-out;
+        margin-right: 25px;
+    }
+
+    .rulebook {
+        
+    }
+
+    .logo {
+        
+        height: auto;
+        width: auto;
+        max-height: 100px;
+        opacity: 1;
+        margin-left:100px;
+    }
+
+
+    /* footer */
+
+    .footer {
+        
+        text-align: center;
+        justify-content: center;
+        display: inline-block
+        position: relative;
+        width: 100%;
+        max-width: 1360px;
+        margin: 0 auto;
+        height: 100px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0,.1);
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer .container {
+        
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .discord-logo {
+        
+            height: auto;
+            width: auto;
+            max-height: 50px;
+            opacity: 1;
+            margin-left:100px;
+        
+    }
+
+    .middle-container {
+        
+        height: 100vh;
+        box-shadow: 0 4px 10px rgba(0, 0, 0,.1);
+        margin: 5px auto 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+
+    .download-img {
+        display: relative;
+    }
+
+.schedule_card {
+    color: #fff;
+    display: inline-block;
+    background-color: black;
+    width: 210px;
+    height: 175px;
+}
+
+.stream {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
